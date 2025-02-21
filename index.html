@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Source Club KODC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/kodc_logo.png" alt="KODC Logo">
+            </div>
+            <div class="logo" style="padding-right: 700px;">OSC KODC</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#join">Join Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Welcome to Open Source Club KODC</h1>
+            <p>Our way of contributing back to the community</p>
+            <a href="#join" class="cta-button">Join Our Community</a>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <p>We are a community of passionate developers, designers, and tech enthusiasts dedicated to contributing to open source projects and fostering innovation through AI.</p>
+        </section>
+        <section id="projects" class="projects">
+            <h2>Our Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3><a href="https://github.com/Be-Secure/BeSLab">BeSLab</a></h3>
+                    <p>An open source security lab blueprint dedicated to fortifying open source projects, models, training dataset against potential vulnerabilities.</p>
+                </div>
+                <div class="project-card">
+                    <h3><a href="https://github.com/Be-Secure/BeSman">BeSman</a></h3>
+                    <p>Utility designed for creating and provisioning customized security environments.</p>
+                </div>
+                <div class="project-card">
+                    <h3><a href="https://github.com/Be-Secure/BeSLighthouse">BeSLighthouse</a></h3>
+                    <p>Community dashboard for displaying security posture of open source projects and models</p>
+                </div>
+            </div>
+        </section>
+        <section id="join" class="join">
+            <h2>Join Our Community</h2>
+            <form id="joinForm">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Why do you want to join?"></textarea>
+                <button type="submit">Submit Application</button>
+            </form>
+            <div id="confirmationMessage" class="confirmation-message"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Open Source Club KODC. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
